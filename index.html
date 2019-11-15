@@ -6,7 +6,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/brands.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/solid.css">
 
     <title>Curso de Bootstrap 4</title>
 </head>
@@ -15,7 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">
 
         <div class="container">
-            <a class="navbar-brand h1 mb-0" href="#">Curso</a>
+            <a class="navbar-brand h1 mb-0" href="#">Michael T.</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsite">
                 <span class="navbar-toggler-icon"></span>
@@ -114,7 +117,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mt-5">
-                <h1 class="display-3">Cabeçalho 1</h1>
+                <h1 class="display-3"><i class="fab fa-angellist text-primary"></i>Cabeçalho 1</h1>
                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
             </div>
         </div>
@@ -272,6 +275,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <h1 class="display-4">
+                        <i class="fas fa-video text-primary"></i>
                         Tecto askke asslzlz
                     </h1>
                     <p class="lead"> a search for 'lorem ipsum' will uncover many web sites still in their infancy. Vari</p>
@@ -345,6 +349,120 @@
         </div>
     </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-4 text-center my-5"><i class="fa fa-paper-plane text-primary" aria-hidden="true"></i> Titulo qualquer</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-5">
+            <div class="col-sm-12 col-md-10 col-lg-8">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label for="inputNome">Seu nome</label>
+                            <input type="text" class="form-control" id="inputNome" placeholder="Nome" />
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="iputSobrenome">Seu sobrenome</label>
+                            <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome" />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <label for="inputEndereco">Seu Endereço</label>
+                            <input type="text" class="form-control" id="inputEndereco" placeholder="Endereço" />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group col-sm-6">
+                            <label for="inputCidade">Sua cidade</label>
+                            <input type="text" class="form-control" id="inputCidade" placeholder="Cidade" />
+                        </div>
+
+                        <div class="form-group col-sm-4">
+                            <label for="inputEstado">Seu Estado</label>
+                            <select id="inputEstado" class="form-control">
+                                <option selected>Escolha...</option>
+                                <option>São Paulo</option>
+                                <option>Rio de Janeiro</option>
+                                <option>Osasco</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group col-sm-2">
+                            <label for="inputCep">Seu CEP</label>
+                            <input type="text" class="form-control" id="inputCep" placeholder="CEP" />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" /> Desejo receber novidades por e-mail
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+
+                            <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Titulo do popover!" data-content="Texto de ajuda de exemplo para visualização!">Ajuda!</a>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 mb-3">
+                <hr />
+            </div>
+
+            <div class="col-sm-4">
+                <h3>Michael T.</h3>
+                <p>Falando um pouco mais sobre o conteúdo do site! Falando um pouco mais sobre o conteúdo do site! Falando um pouco mais sobre o conteúdo do site! </p>
+                <p>Falando um pouco mais sobre o conteúdo do site! </p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Menu</h3>
+
+                <div class="list-group text-center">
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Perfil</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Serviços</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Depoimentos</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Contatos </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h3>Social</h3>
+
+                <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+                    <a class="btn btn-outline-primary" href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a>
+                    <a class="btn btn-outline-info" href="#"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+                    <a class="btn btn-outline-warning" href="#"><i class="fab fa-instagram" aria-hidden="true"></i> Instagram</a>
+                </div>
+            </div>
+
+            <div class="col-12 mt-5">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">O sucesso não é garantido, mas o fracasso é certo se você não estiver emocionalmente envolvido com seu trabalho.</p>
+                    <footer class="blockquote-footer">Biz Stone <cite title="Source Title">Fundador do Twitter</cite></footer>
+                </blockquote>
+            </div>
+
+        </div>
+
+    </div>
+
     <!--Modal-->
 
     <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
@@ -381,11 +499,18 @@
             </div>
         </div>
     </div>
-    
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
 </body>
 </html>
